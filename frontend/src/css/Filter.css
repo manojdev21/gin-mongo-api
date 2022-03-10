@@ -1,0 +1,12 @@
+.filter-container {
+  background-color: rgba(0, 0, 0, 0.089);
+  padding: 2em 1em;
+  text-align: center;
+}
+
+#search {
+  padding: .5em;
+  width: 30vmax;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: .4em;
+}

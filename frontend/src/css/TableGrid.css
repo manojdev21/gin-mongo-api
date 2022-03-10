@@ -1,0 +1,28 @@
+.main-container {
+  padding: 1em;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.table-title {
+  font-weight: 600;
+}
+
+.grid-table {
+  display: grid;
+  grid-template-columns: .5fr repeat(7, 1fr);
+  margin: .6em 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.grid-table span {
+  font-size: .9em;
+  padding: .6em .3em;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.header-row {
+  background-color: rgb(201, 201, 201);
+  padding: .2em;
+  font-weight: 600;
+}

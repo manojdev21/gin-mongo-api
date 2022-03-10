@@ -1,0 +1,42 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#form {
+  width: fit-content;
+  padding: 2em;
+  background-color: rgb(221, 221, 221);
+  border-radius: .4em;
+}
+
+.field {
+  display: block;
+  width: 30em;
+  padding: 0.4em;
+  margin: 0.1em 0;
+}
+
+#sub {
+  background-color: rgb(207, 207, 207);
+  padding: .6em 0 .6em 2em;
+  border-radius: .4em;
+}
+
+#sub > .field {
+  width: 25em;
+}
+
+.title.address {
+  margin-top: 1em;
+}
+
+.title {
+  display: block;
+  margin-top: .2em;
+}
+
+.btn {
+  padding: 1em;
+}
